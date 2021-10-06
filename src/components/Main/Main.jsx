@@ -6,6 +6,7 @@ import ContentSlider from './ContentSlider/ContentSlider';
 const style = {
     display: 'flex',
     maxWidth: '100vw',
+    maxHeight: '85vh',
 }
 
 const Main = () => {

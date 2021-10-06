@@ -1,21 +1,12 @@
 import * as React from 'react';
 import {AppBar, Container, Box, Toolbar, Typography, Button, IconButton, CssBaseline,} from '@mui/material';
-
-const logoStyle = {
-    width: '45px',
-    height: '45px',
-    borderRadius: '50%'
-}
-
-const style = {
-    position: 'sticky',
-    top: 0,
-    left: 0,
-}
+import useStyles from './style';
 
 const Header = () =>{
+  const classes = useStyles();
+
   return (
-    <div style={style}>
+    <div className={classes.root}>
       <CssBaseline />
         <Box sx={{ flexGrow: 1 }}>
             <AppBar position="static">
