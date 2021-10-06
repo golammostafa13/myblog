@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <div className={classes.root}>
             <CssBaseline />
-            <Typography variant="h6">Copyright &copy; <a href="http://github.com/golammostafa13/">Golam Mostafa</a></Typography>
+            <Typography variant="body 2">Copyright &copy; <a href="http://github.com/golammostafa13/">Golam Mostafa</a></Typography>
         </div>
     );
 };

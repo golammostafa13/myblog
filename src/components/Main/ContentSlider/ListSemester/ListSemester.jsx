@@ -58,7 +58,7 @@ export default function ListSemester() {
         component="nav"
         aria-labelledby="nested-list-subheader"
         subheader={
-          <ListSubheader color="primary" component="div" id="nested-list-subheader">
+          <ListSubheader color="secondary" component="div" id="nested-list-subheader">
             1st Year : 1st Sem
           </ListSubheader>
         }
@@ -85,7 +85,7 @@ export default function ListSemester() {
         component="nav"
         aria-labelledby="nested-list-subheader"
         subheader={
-          <ListSubheader color="primary" component="div" id="nested-list-subheader">
+          <ListSubheader color="secondary" component="div" id="nested-list-subheader">
             1st Year : 2nd Sem
           </ListSubheader>
         }
@@ -114,7 +114,7 @@ export default function ListSemester() {
         component="nav"
         aria-labelledby="nested-list-subheader"
         subheader={
-          <ListSubheader color="primary" component="div" id="nested-list-subheader">
+          <ListSubheader color="secondary" component="div" id="nested-list-subheader">
             2nd Year : 1st Sem
           </ListSubheader>
         }
@@ -143,7 +143,7 @@ export default function ListSemester() {
         component="nav"
         aria-labelledby="nested-list-subheader"
         subheader={
-          <ListSubheader color="primary" component="div" id="nested-list-subheader">
+          <ListSubheader color="secondary" component="div" id="nested-list-subheader">
             2nd Year : 2nd Sem
           </ListSubheader>
         }
@@ -172,7 +172,7 @@ export default function ListSemester() {
         component="nav"
         aria-labelledby="nested-list-subheader"
         subheader={
-          <ListSubheader color="primary" component="div" id="nested-list-subheader">
+          <ListSubheader color="secondary" component="div" id="nested-list-subheader">
             3rd Year : 1st Sem
           </ListSubheader>
         }
@@ -201,7 +201,7 @@ export default function ListSemester() {
         component="nav"
         aria-labelledby="nested-list-subheader"
         subheader={
-          <ListSubheader color="primary" component="div" id="nested-list-subheader">
+          <ListSubheader color="secondary" component="div" id="nested-list-subheader">
             3rd Year : 2nd Sem
           </ListSubheader>
         }
@@ -230,7 +230,7 @@ export default function ListSemester() {
         component="nav"
         aria-labelledby="nested-list-subheader"
         subheader={
-          <ListSubheader color="primary" component="div" id="nested-list-subheader">
+          <ListSubheader color="secondary" component="div" id="nested-list-subheader">
             4th Year : 1st Sem
           </ListSubheader>
         }
@@ -259,7 +259,7 @@ export default function ListSemester() {
         component="nav"
         aria-labelledby="nested-list-subheader"
         subheader={
-          <ListSubheader color="primary" component="div" id="nested-list-subheader">
+          <ListSubheader color="secondary" component="div" id="nested-list-subheader">
             4th Year : 2nd Sem
           </ListSubheader>
         }

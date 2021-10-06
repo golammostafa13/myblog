@@ -12,8 +12,8 @@ const useStyles = makeStyles({
   },
   image: {
       marginTop: '10px',
-      width: '50px',
-      height: '50px',
+      width: '45px',
+      height: '45px',
       backgroundColor: '#1876D2',
       borderRadius: '50%',
   }
