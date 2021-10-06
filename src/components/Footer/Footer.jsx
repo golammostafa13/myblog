@@ -1,12 +1,14 @@
 import React from 'react';
 import useStyles from './style';
+import { Typography, CssBaseline } from '@mui/material';
 
 const Footer = () => {
     const classes = useStyles();
 
     return (
         <div className={classes.root}>
-            footer
+            <CssBaseline />
+            <Typography variant="h6">Copyright &copy; <a href="http://github.com/golammostafa13/">Golam Mostafa</a></Typography>
         </div>
     );
 };

@@ -2,8 +2,11 @@ import { makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles({
   root: {
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
       maxHeight: '5vh',
-      maxWidth: '100vh',
+      minWidth: '100vh',
   }
 });
 

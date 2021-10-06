@@ -2,6 +2,7 @@ import React from 'react';
 import Container from '@mui/material/Container';
 import Containers from './Container/Containers';
 import ContentSlider from './ContentSlider/ContentSlider';
+import OtherContentSlider from './OtherContentSlider/OtherContentSlider';
 
 const style = {
     display: 'flex',
@@ -14,6 +15,7 @@ const Main = () => {
         <Container maxWidth="sm" style={style}>
             <ContentSlider />
             <Containers />
+            <OtherContentSlider />
         </Container>
     );
 };

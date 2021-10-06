@@ -8,7 +8,6 @@ const useStyles = makeStyles({
     display: 'flex',
     alignItems: 'center',
     flexDirection: 'column',
-    overflowY: 'scroll',
   },
   image: {
       marginTop: '10px',

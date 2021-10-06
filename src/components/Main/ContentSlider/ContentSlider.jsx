@@ -26,8 +26,7 @@ const ContentSlider = () => {
                     indicatorColor="secondary"
                     aria-label="secondary tabs example"
                 >
-                    <Tab value="one" label="CSE" />
-                    <Tab value="two" label="MGT" />
+                    <Tab value="one" label="CSE Edu" />
                 </Tabs>
                 </Box>
             </section>
