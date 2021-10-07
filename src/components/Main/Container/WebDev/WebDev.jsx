@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Typography, CssBaseline } from '@mui/material';
+import './style.css';
 
 const WebDev = () => {
     return (

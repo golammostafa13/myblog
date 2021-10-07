@@ -7,9 +7,10 @@ import ExpandMore from '@mui/icons-material/ExpandMore';
 import StarBorder from '@mui/icons-material/StarBorder';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import Subject from './Subject/Subject';
+import { semester1, semester2, semester3, semester4, semester5, semester6, semester7, semester8} from '../../../../assets/utils/utils';
 
-export default function ListSemester() {
-  const subjects = ['Compiler Design', 'Artificial Intelligence', 'E-commerce & Marketing', 'Computer Graphics'];
+export default function ListSemester({handleSubjectClick}) {
+
   // const semesters = [1, 2, 3, 4, 5, 6, 7, 8];
 
   const [open1, setOpen1] = React.useState(false);
@@ -25,26 +26,82 @@ export default function ListSemester() {
     switch (val) {
       case 1:
         setOpen1(!open1);
+        setOpen2(false);
+        setOpen3(false);
+        setOpen4(false);
+        setOpen5(false);
+        setOpen6(false);
+        setOpen7(false);
+        setOpen8(false);
         break;
       case 2:
+        setOpen1(false);
         setOpen2(!open2);
+        setOpen3(false);
+        setOpen4(false);
+        setOpen5(false);
+        setOpen6(false);
+        setOpen7(false);
+        setOpen8(false);
         break;
       case 3:
+        setOpen1(false);
+        setOpen2(false);
         setOpen3(!open3);
+        setOpen4(false);
+        setOpen5(false);
+        setOpen6(false);
+        setOpen7(false);
+        setOpen8(false);
         break;
       case 4:
+        setOpen1(false);
+        setOpen2(false);
+        setOpen3(false);
         setOpen4(!open4);
+        setOpen5(false);
+        setOpen6(false);
+        setOpen7(false);
+        setOpen8(false);
         break;
       case 5:
+        setOpen1(false);
+        setOpen2(false);
+        setOpen3(false);
+        setOpen4(false);
         setOpen5(!open5);
+        setOpen6(false);
+        setOpen7(false);
+        setOpen8(false);
         break;
       case 6:
+        setOpen1(false);
+        setOpen2(false);
+        setOpen3(false);
+        setOpen4(false);
+        setOpen5(false);
         setOpen6(!open6);
+        setOpen7(false);
+        setOpen8(false);
         break;
       case 7:
+        setOpen1(false);
+        setOpen2(false);
+        setOpen3(false);
+        setOpen4(false);
+        setOpen5(false);
+        setOpen6(false);
         setOpen7(!open7);
+        setOpen8(false);
         break;
       case 8:
+        setOpen1(false);
+        setOpen2(false);
+        setOpen3(false);
+        setOpen4(false);
+        setOpen5(false);
+        setOpen6(false);
+        setOpen7(false);
         setOpen8(!open8);
         break;
       default:
@@ -74,7 +131,7 @@ export default function ListSemester() {
             <List component="div" disablePadding>
               <ListItemButton sx={{ pl: 4}}>
                 <div>
-                    {subjects.map(sub => <Subject key={sub} subName={sub} />)}
+                    {semester1[0].map(sub => <Subject handleSubjectClick={handleSubjectClick} key={sub} subName={sub} />)}
                 </div>
               </ListItemButton>
             </List>
@@ -102,7 +159,7 @@ export default function ListSemester() {
               <ListItemButton sx={{ pl: 4 }}>
             
                 <div>
-                    {subjects.map(sub => <Subject key={sub} subName={sub} />)}
+                    {semester2[0].map(sub => <Subject key={sub} subName={sub} />)}
                 </div>
                 
               </ListItemButton>
@@ -131,7 +188,7 @@ export default function ListSemester() {
               <ListItemButton sx={{ pl: 4 }}>
 
                 <div>
-                    {subjects.map(sub => <Subject key={sub} subName={sub} />)}
+                    {semester3[0].map(sub => <Subject key={sub} subName={sub} />)}
                 </div>
                 
               </ListItemButton>
@@ -160,7 +217,7 @@ export default function ListSemester() {
               <ListItemButton sx={{ pl: 4 }}>
             
                 <div>
-                    {subjects.map(sub => <Subject key={sub} subName={sub} />)}
+                    {semester4[0].map(sub => <Subject key={sub} subName={sub} />)}
                 </div>
                 
               </ListItemButton>
@@ -189,7 +246,7 @@ export default function ListSemester() {
               <ListItemButton sx={{ pl: 4 }}>
             
                 <div>
-                    {subjects.map(sub => <Subject key={sub} subName={sub} />)}
+                    {semester5[0].map(sub => <Subject key={sub} subName={sub} />)}
                 </div>
                 
               </ListItemButton>
@@ -218,7 +275,7 @@ export default function ListSemester() {
               <ListItemButton sx={{ pl: 4 }}>
             
                 <div>
-                    {subjects.map(sub => <Subject key={sub} subName={sub} />)}
+                    {semester6[0].map(sub => <Subject key={sub} subName={sub} />)}
                 </div>
                 
               </ListItemButton>
@@ -247,7 +304,7 @@ export default function ListSemester() {
               <ListItemButton sx={{ pl: 4 }}>
 
                 <div>
-                    {subjects.map(sub => <Subject key={sub} subName={sub} />)}
+                    {semester7[0].map(sub => <Subject key={sub} subName={sub} />)}
                 </div>
                 
               </ListItemButton>
@@ -276,7 +333,7 @@ export default function ListSemester() {
               <ListItemButton sx={{ pl: 4 }}>
             
                 <div>
-                    {subjects.map(sub => <Subject key={sub} subName={sub} />)}
+                    {semester8[0].map(sub => <Subject key={sub} subName={sub} />)}
                 </div>
                 
               </ListItemButton>

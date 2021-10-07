@@ -4,7 +4,7 @@ import { CssBaseline, Box, Tab, Tabs } from '@mui/material';
 import useStyles from './style';
 import ListSemester from './ListSemester/ListSemester';
 
-const ContentSlider = () => {
+const ContentSlider = ({handleSubjectClick}) => {
     const [value, setValue] = React.useState('one');
 
     const handleChange = (event, newValue) => {
@@ -30,7 +30,7 @@ const ContentSlider = () => {
                 </Tabs>
                 </Box>
             </section>
-            <ListSemester />
+            <ListSemester handleSubjectClick={handleSubjectClick} />
         </div>
     );
 };

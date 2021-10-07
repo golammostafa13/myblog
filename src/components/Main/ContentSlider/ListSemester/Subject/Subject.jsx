@@ -1,10 +1,8 @@
 import React from 'react';
 import {Typography, ListSubheader, List, ListItemButton, ListItemIcon, ListItemText, Collapse} from '@mui/material';
 
-const Subject = ({subName}) => {
-    const handleClick = () => {
-        console.log('clicked');
-    }
+const Subject = ({subName, handleSubjectClick}) => {
+
     return (
         <div>
             <List
@@ -12,7 +10,7 @@ const Subject = ({subName}) => {
             component="nav"
             aria-labelledby="nested-list-subheader"
             >
-                <ListItemButton onClick= {handleClick}>
+                <ListItemButton onClick= {() => handleSubjectClick(subName)}>
                     <ListItemText primary={subName} />
                 </ListItemButton>
             </List>

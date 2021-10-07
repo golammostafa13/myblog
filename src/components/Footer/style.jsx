@@ -7,6 +7,7 @@ const useStyles = makeStyles({
       justifyContent: 'center',
       maxHeight: '5vh',
       minWidth: '100vh',
+      padding: '4px',
   }
 });
 
