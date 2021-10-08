@@ -3,7 +3,7 @@ import React from 'react';
 const DesignAnalysis = () => {
     return (
         <div>
-            comming soon
+           da comming soon
         </div>
     );
 };

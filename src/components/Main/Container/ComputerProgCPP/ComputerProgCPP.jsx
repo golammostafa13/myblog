@@ -3,7 +3,7 @@ import React from 'react';
 const ComputerProgCPP = () => {
     return (
         <div>
-            comming soon
+            cpp comming soon
         </div>
     );
 };

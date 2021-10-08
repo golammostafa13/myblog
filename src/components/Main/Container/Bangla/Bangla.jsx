@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Economics = () => {
+const Bangla = () => {
     return (
         <div>
-           ec comming soon
+            bangla is comming soon
         </div>
     );
 };
 
-export default Economics;
+export default Bangla;

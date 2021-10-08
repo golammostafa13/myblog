@@ -3,7 +3,7 @@ import React from 'react';
 const NumericalMath = () => {
     return (
         <div>
-            comming soon
+           nm comming soon
         </div>
     );
 };

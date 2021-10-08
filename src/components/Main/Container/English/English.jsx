@@ -3,7 +3,7 @@ import React from 'react';
 const English = () => {
     return (
         <div>
-            comming soon
+           eng comming soon
         </div>
     );
 };

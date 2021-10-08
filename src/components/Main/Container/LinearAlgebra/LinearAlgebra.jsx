@@ -3,7 +3,7 @@ import React from 'react';
 const LinearAlgebra = () => {
     return (
         <div>
-            comming soon
+           la comming soon
         </div>
     );
 };

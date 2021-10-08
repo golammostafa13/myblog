@@ -3,7 +3,7 @@ import React from 'react';
 const ODE = () => {
     return (
         <div>
-            comming soon
+           ode comming soon
         </div>
     );
 };

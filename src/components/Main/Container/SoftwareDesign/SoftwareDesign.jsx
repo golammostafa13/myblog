@@ -3,7 +3,7 @@ import React from 'react';
 const SoftwareDesign = () => {
     return (
         <div>
-            comming soon
+          sd  comming soon
         </div>
     );
 };

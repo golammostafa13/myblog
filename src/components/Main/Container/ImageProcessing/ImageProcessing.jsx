@@ -3,7 +3,7 @@ import React from 'react';
 const ImageProcessing = () => {
     return (
         <div>
-            comming soon
+           ip comming soon
         </div>
     );
 };

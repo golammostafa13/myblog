@@ -3,7 +3,7 @@ import React from 'react';
 const Cryptography = () => {
     return (
         <div>
-            comming soon
+            cry comming soon
         </div>
     );
 };

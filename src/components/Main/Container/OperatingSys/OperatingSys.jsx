@@ -3,7 +3,7 @@ import React from 'react';
 const OperatingSys = () => {
     return (
         <div>
-            comming soon
+          os  comming soon
         </div>
     );
 };

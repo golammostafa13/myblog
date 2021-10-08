@@ -3,7 +3,7 @@ import React from 'react';
 const FiniteAutomata = () => {
     return (
         <div>
-            comming soon
+           fa comming soon
         </div>
     );
 };

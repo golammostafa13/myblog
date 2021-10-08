@@ -2,7 +2,7 @@ export const semester1 = [
     ['Computer Programming(C)', 'Computer Fundamentals', 'Chemistry', 'Physics', 'Calculus', 'Electrical Circuit Analysis'],
 ];
 export const semester2 = [
-    ['Discrete Mathematics','Computer Programming(CPP)', 'Digital System ', 'Basic Electronics', 'Linear Algebra', 'Intorductions to Statistics']
+    ['Discrete Mathematics','Computer Programming(CPP)', 'Digital System', 'Basic Electronics', 'Linear Algebra', 'Introductions to Statistics']
 ]
 export const semester3 = [
     ['Data Structure', 'Object Oriented Programming(JAVA)', 'Computer Architecture', 'Ordinary Differential Equation', 'Introduction to Probability', 'Introduction to Business'],
@@ -14,7 +14,7 @@ export const semester5 = [
     ['Peripheral and Interfacing', 'Data & Telecommunications', 'Software Design Pattern', 'Mathematics for Computer Science', 'Professional English', 'Bangladesh Studies'],
 ]
 export const semester6 = [
-    ['Software Engineering', 'Computer Networking', 'Finite Langauge, Automata and Computation', 'Sytem Programming', 'Operating System'],
+    ['Software Engineering', 'Computer Networking', 'Finite Langauge, Automata and Computation', 'System Programming', 'Operating System'],
 ]
 export const semester7 = [
     ['Artificial Intelligence', 'Compiler Design and Construction', 'Computer Graphics', 'E-commerce and Web Engineering'],

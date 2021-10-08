@@ -3,7 +3,7 @@ import React from 'react';
 const Java = () => {
     return (
         <div>
-            comming soon
+            jv comming soon
         </div>
     );
 };

@@ -3,7 +3,7 @@ import React from 'react';
 const ComputerArchitecture = () => {
     return (
         <div>
-            comming soon
+           ca comming soon
         </div>
     );
 };

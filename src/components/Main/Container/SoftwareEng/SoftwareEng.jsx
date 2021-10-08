@@ -3,7 +3,7 @@ import React from 'react';
 const SoftwareEng = () => {
     return (
         <div>
-            comming soon
+          se  comming soon
         </div>
     );
 };

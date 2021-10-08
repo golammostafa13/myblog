@@ -3,7 +3,7 @@ import React from 'react';
 const Probability = () => {
     return (
         <div>
-            comming soon
+          prb  comming soon
         </div>
     );
 };

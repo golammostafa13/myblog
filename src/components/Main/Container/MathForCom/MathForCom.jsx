@@ -3,7 +3,7 @@ import React from 'react';
 const MathForCom = () => {
     return (
         <div>
-            comming soon
+          mc  comming soon
         </div>
     );
 };

@@ -44,11 +44,12 @@ import ImageProcessing from './ImageProcessing/ImageProcessing';
 import Cryptography from './Cryptography/Cryptography';
 import MachineDataMine from './MachineDataMine/MachineDataMine';
 import ODE from './ODE/ODE';
+import Bangla from './Bangla/Bangla';
 
 const Containers = (props) => {
 
     const { 
-        webDev, OS, ML, CP, comProgC, comFun, physics, chemistry, calculus, electricalCir, discrete, computerProgCPP, digitalSystem, basicElec, linear, statistics, dataStructure, java, computerArchitecture, ode, probability, business, database,microprocessor, designAnalysis, numerical, economics, socioloyg, peripheral, dataTele, softwareDesign, mathematicsForCom, english, softwareEng, comNetworking, finiteAuto, systemProgramming, operatingSystem, ai, compiler, graphics, ecommerce,image, crypto, machineLearning } = props;
+        webDev, OS, ML, CP, comProgC, comFun, physics, chemistry, calculus, electricalCir, discrete, computerProgCPP, digitalSystem, basicElec, linear, statistics, dataStructure, java, computerArchitecture, ode, probability, business, database,microprocessor, designAnalysis, numerical, economics, sociology, peripheral, dataTele, softwareDesign, mathematicsForCom, english, bangla, softwareEng, comNetworking, finiteAuto, systemProgramming, operatingSystem, ai, compiler, graphics, ecommerce,image, crypto, machineLearning } = props;
 
     const classes = useStyles();
     return (
@@ -112,12 +113,13 @@ const Containers = (props) => {
             {designAnalysis && <DesignAnalysis />}
             {numerical && <NumericalMath />}
             {economics && <Economics />}
-            {socioloyg && <Sociology />}
+            {sociology && <Sociology />}
             {peripheral && <Peripheral />}
             {dataTele && <DataTeleCom />}
             {softwareDesign && <SoftwareDesign />}
             {mathematicsForCom && <MathForCom />}
             {english && <English />}
+            {bangla && <Bangla />}
             {softwareEng && <SoftwareEng />}
             {comNetworking && <ComputerNet />}
             {finiteAuto && <FiniteAutomata />}

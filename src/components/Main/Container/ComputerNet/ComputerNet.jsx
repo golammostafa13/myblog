@@ -3,7 +3,7 @@ import React from 'react';
 const ComputerNet = () => {
     return (
         <div>
-            comming soon
+           cn comming soon
         </div>
     );
 };

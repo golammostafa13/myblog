@@ -3,7 +3,7 @@ import React from 'react';
 const Microprocessor = () => {
     return (
         <div>
-            comming soon
+          mp  comming soon
         </div>
     );
 };

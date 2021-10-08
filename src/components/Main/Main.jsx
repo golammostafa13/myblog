@@ -42,13 +42,14 @@ const Main = () => {
     const [designAnalysis, setDesignAnalysis] = React.useState('false');
     const [numerical, setNumerical] = React.useState('false');
     const [economics, setEconomics] = React.useState('false');
-    const [socioloyg, setSocioloyg] = React.useState('false');
+    const [sociology, setSociology] = React.useState('false');
 
     const [peripheral, setPeripheral] = React.useState('false');
     const [dataTele, setDataTele] = React.useState('false');
     const [softwareDesign, setSoftwareDesign] = React.useState('false');
     const [mathematicsForCom, setMathematicsForCom] = React.useState('false');
     const [english, setEnglish] = React.useState('false');
+    const [bangla, setBangla] = React.useState('false');
 
     const [softwareEng, setSoftwareEng] = React.useState('false');
     const [comNetworking, setComNetworking] = React.useState('false');
@@ -128,7 +129,6 @@ const Main = () => {
         }
     }
     const handleSubjectClick = (val) => {
-        console.log(val);
         switch (val) {
             case 'Computer Programming(C)':
 
@@ -161,12 +161,14 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -209,12 +211,14 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -257,12 +261,14 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -305,12 +311,14 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -353,12 +361,14 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -401,12 +411,14 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -450,12 +462,14 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -499,12 +513,14 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -548,12 +564,14 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -580,12 +598,14 @@ const Main = () => {
                 setChemistry(false);
                 setCalculus(false);
                 setElectricalCir(false);
+
                 setDiscrete(false);
                 setComputerProgCPP(false);
-                setDigitalSystem(true);
-                setBasicElec(false);
+                setDigitalSystem(false);
+                setBasicElec(true);
                 setLinear(false);
                 setStatistics(false);
+
                 setDataStructure(false);
                 setJava(false);
                 setComputerArchitecture(false);
@@ -597,12 +617,13 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -646,12 +667,14 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -678,12 +701,14 @@ const Main = () => {
                 setChemistry(false);
                 setCalculus(false);
                 setElectricalCir(false);
+
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
                 setBasicElec(false);
                 setLinear(false);
                 setStatistics(true);
+
                 setDataStructure(false);
                 setJava(false);
                 setComputerArchitecture(false);
@@ -695,12 +720,14 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -744,12 +771,14 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -776,29 +805,35 @@ const Main = () => {
                 setChemistry(false);
                 setCalculus(false);
                 setElectricalCir(false);
+
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
                 setBasicElec(false);
                 setLinear(false);
                 setStatistics(false);
+
                 setDataStructure(false);
                 setJava(true);
                 setComputerArchitecture(false);
                 setOde(false);
                 setProbability(false);
                 setBusiness(false);
+
                 setDatabase(false);
                 setMicroprocessor(false);
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
+
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -842,12 +877,14 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -874,38 +911,46 @@ const Main = () => {
                 setChemistry(false);
                 setCalculus(false);
                 setElectricalCir(false);
+
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
                 setBasicElec(false);
                 setLinear(false);
                 setStatistics(false);
+
                 setDataStructure(false);
                 setJava(false);
                 setComputerArchitecture(false);
                 setOde(true);
                 setProbability(false);
                 setBusiness(false);
+
                 setDatabase(false);
                 setMicroprocessor(false);
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
+
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
                 setSystemProgramming(false);
                 setOperatingSystem(false);
+
                 seAi(false);
                 setCompiler(false);
                 setGraphics(false);
                 setEcommerce(false);
+
                 setImage(false);
                 setCrypto(false);
                 setMachineLearning(false);
@@ -922,30 +967,36 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
+
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
                 setBasicElec(false);
                 setLinear(false);
                 setStatistics(false);
+
                 setDataStructure(false);
                 setJava(false);
                 setComputerArchitecture(false);
                 setOde(false);
-                setProbability(false);
+                setProbability(true);
                 setBusiness(false);
+
                 setDatabase(false);
                 setMicroprocessor(false);
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
+
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -971,30 +1022,36 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
+
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
                 setBasicElec(false);
                 setLinear(false);
                 setStatistics(false);
+
                 setDataStructure(false);
                 setJava(false);
                 setComputerArchitecture(false);
                 setOde(false);
                 setProbability(false);
-                setBusiness(false);
+                setBusiness(true);
+
                 setDatabase(false);
                 setMicroprocessor(false);
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
+
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -1020,30 +1077,36 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
+
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
                 setBasicElec(false);
                 setLinear(false);
                 setStatistics(false);
+
                 setDataStructure(false);
                 setJava(false);
                 setComputerArchitecture(false);
                 setOde(false);
                 setProbability(false);
                 setBusiness(false);
-                setDatabase(false);
+
+                setDatabase(true);
                 setMicroprocessor(false);
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
+
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -1069,7 +1132,8 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
+
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
@@ -1083,16 +1147,18 @@ const Main = () => {
                 setProbability(false);
                 setBusiness(false);
                 setDatabase(false);
-                setMicroprocessor(false);
+                setMicroprocessor(true);
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -1118,7 +1184,8 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
+
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
@@ -1133,15 +1200,17 @@ const Main = () => {
                 setBusiness(false);
                 setDatabase(false);
                 setMicroprocessor(false);
-                setDesignAnalysis(false);
+                setDesignAnalysis(true);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -1167,39 +1236,47 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
+
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
                 setBasicElec(false);
                 setLinear(false);
                 setStatistics(false);
+
                 setDataStructure(false);
                 setJava(false);
                 setComputerArchitecture(false);
                 setOde(false);
                 setProbability(false);
                 setBusiness(false);
+
                 setDatabase(false);
                 setMicroprocessor(false);
                 setDesignAnalysis(false);
-                setNumerical(false);
+                setNumerical(true);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
+
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
                 setSystemProgramming(false);
                 setOperatingSystem(false);
+
                 seAi(false);
                 setCompiler(false);
                 setGraphics(false);
                 setEcommerce(false);
+
                 setImage(false);
                 setCrypto(false);
                 setMachineLearning(false);
@@ -1216,7 +1293,7 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
@@ -1233,13 +1310,14 @@ const Main = () => {
                 setMicroprocessor(false);
                 setDesignAnalysis(false);
                 setNumerical(false);
-                setEconomics(false);
-                setSocioloyg(false);
+                setEconomics(true);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -1253,7 +1331,7 @@ const Main = () => {
                 setCrypto(false);
                 setMachineLearning(false);
                 break;
-            case 'Socilogy':
+            case 'Sociology':
                 setWebDev(false);
                 setOS(false);
                 setML(false);
@@ -1264,30 +1342,34 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
                 setBasicElec(false);
                 setLinear(false);
                 setStatistics(false);
+
                 setDataStructure(false);
                 setJava(false);
                 setComputerArchitecture(false);
                 setOde(false);
                 setProbability(false);
                 setBusiness(false);
+
                 setDatabase(false);
                 setMicroprocessor(false);
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(true);
+
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -1313,7 +1395,7 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
@@ -1331,8 +1413,8 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
-                setPeripheral(false);
+                setSociology(false);
+                setPeripheral(true);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
@@ -1362,7 +1444,7 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
@@ -1380,12 +1462,13 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
-                setDataTele(false);
+                setDataTele(true);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -1411,7 +1494,7 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
@@ -1429,12 +1512,13 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
-                setSoftwareDesign(false);
+                setSoftwareDesign(true);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -1460,7 +1544,7 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
@@ -1478,12 +1562,13 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
-                setMathematicsForCom(false);
+                setMathematicsForCom(true);
                 setEnglish(false);
+                setBangla(false);
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -1509,7 +1594,7 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
@@ -1527,12 +1612,13 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
-                setEnglish(false);
+                setEnglish(true);
+                setBangla(false);
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -1558,7 +1644,7 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
@@ -1576,12 +1662,13 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(true);
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -1607,7 +1694,7 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
@@ -1625,13 +1712,15 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
-                setSoftwareEng(false);
+                setBangla(false);
+                
+                setSoftwareEng(true);
                 setComNetworking(false);
                 setFiniteAuto(false);
                 setSystemProgramming(false);
@@ -1656,7 +1745,7 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
@@ -1674,14 +1763,16 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
-                setComNetworking(false);
+                setComNetworking(true);
                 setFiniteAuto(false);
                 setSystemProgramming(false);
                 setOperatingSystem(false);
@@ -1694,7 +1785,8 @@ const Main = () => {
                 setMachineLearning(false);
                 break;
             
-            case 'Finite Language, Automata and Computation':
+            case 'Finite Langauge, Automata and Computation':
+                console.log(val);
                 setWebDev(false);
                 setOS(false);
                 setML(false);
@@ -1705,7 +1797,7 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
@@ -1723,15 +1815,17 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
-                setFiniteAuto(false);
+                setFiniteAuto(true);
                 setSystemProgramming(false);
                 setOperatingSystem(false);
                 seAi(false);
@@ -1754,7 +1848,7 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
@@ -1772,16 +1866,18 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
-                setSystemProgramming(false);
+                setSystemProgramming(true);
                 setOperatingSystem(false);
                 seAi(false);
                 setCompiler(false);
@@ -1803,7 +1899,7 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
@@ -1821,17 +1917,19 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
                 setSystemProgramming(false);
-                setOperatingSystem(false);
+                setOperatingSystem(true);
                 seAi(false);
                 setCompiler(false);
                 setGraphics(false);
@@ -1852,7 +1950,7 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
@@ -1870,18 +1968,20 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
                 setSystemProgramming(false);
                 setOperatingSystem(false);
-                seAi(false);
+                seAi(true);
                 setCompiler(false);
                 setGraphics(false);
                 setEcommerce(false);
@@ -1901,7 +2001,7 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
@@ -1919,19 +2019,21 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
                 setSystemProgramming(false);
                 setOperatingSystem(false);
                 seAi(false);
-                setCompiler(false);
+                setCompiler(true);
                 setGraphics(false);
                 setEcommerce(false);
                 setImage(false);
@@ -1950,7 +2052,7 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
@@ -1968,12 +2070,14 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -1981,7 +2085,7 @@ const Main = () => {
                 setOperatingSystem(false);
                 seAi(false);
                 setCompiler(false);
-                setGraphics(false);
+                setGraphics(true);
                 setEcommerce(false);
                 setImage(false);
                 setCrypto(false);
@@ -1999,7 +2103,7 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
@@ -2017,12 +2121,14 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -2031,7 +2137,7 @@ const Main = () => {
                 seAi(false);
                 setCompiler(false);
                 setGraphics(false);
-                setEcommerce(false);
+                setEcommerce(true);
                 setImage(false);
                 setCrypto(false);
                 setMachineLearning(false);
@@ -2048,7 +2154,7 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
@@ -2066,12 +2172,14 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -2081,7 +2189,7 @@ const Main = () => {
                 setCompiler(false);
                 setGraphics(false);
                 setEcommerce(false);
-                setImage(false);
+                setImage(true);
                 setCrypto(false);
                 setMachineLearning(false);
                 break;
@@ -2097,7 +2205,7 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
@@ -2115,12 +2223,14 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -2131,7 +2241,7 @@ const Main = () => {
                 setGraphics(false);
                 setEcommerce(false);
                 setImage(false);
-                setCrypto(false);
+                setCrypto(true);
                 setMachineLearning(false);
                 break;
 
@@ -2146,7 +2256,7 @@ const Main = () => {
                 setPhysics(false);
                 setChemistry(false);
                 setCalculus(false);
-                setElectricalCir(true);
+                setElectricalCir(false);
                 setDiscrete(false);
                 setComputerProgCPP(false);
                 setDigitalSystem(false);
@@ -2164,12 +2274,14 @@ const Main = () => {
                 setDesignAnalysis(false);
                 setNumerical(false);
                 setEconomics(false);
-                setSocioloyg(false);
+                setSociology(false);
                 setPeripheral(false);
                 setDataTele(false);
                 setSoftwareDesign(false);
                 setMathematicsForCom(false);
                 setEnglish(false);
+                setBangla(false);
+
                 setSoftwareEng(false);
                 setComNetworking(false);
                 setFiniteAuto(false);
@@ -2181,7 +2293,7 @@ const Main = () => {
                 setEcommerce(false);
                 setImage(false);
                 setCrypto(false);
-                setMachineLearning(false);
+                setMachineLearning(true);
                 break;
 
             default:
@@ -2219,12 +2331,13 @@ const Main = () => {
             designAnalysis={designAnalysis}
             numerical={     numerical}
             economics={     economics}
-            socioloyg={     socioloyg}
+            sociology={     sociology}
             peripheral={    peripheral}
             dataTele={      dataTele}
             softwareDesign={softwareDesign}
             mathematicsForCom={mathematicsForCom}
             english={       english}
+            bangla={bangla}
             softwareEng={   softwareEng}
             comNetworking={ comNetworking}
             finiteAuto={    finiteAuto}

@@ -3,7 +3,7 @@ import React from 'react';
 const DataTeleCom = () => {
     return (
         <div>
-            comming soon
+            dt comming soon
         </div>
     );
 };

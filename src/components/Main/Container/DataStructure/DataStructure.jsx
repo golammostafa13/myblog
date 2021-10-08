@@ -3,7 +3,7 @@ import React from 'react';
 const DataStructure = () => {
     return (
         <div>
-            comming soon
+            ds comming soon
         </div>
     );
 };

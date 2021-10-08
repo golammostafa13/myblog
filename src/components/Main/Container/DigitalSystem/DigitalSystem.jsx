@@ -3,7 +3,7 @@ import React from 'react';
 const DigitalSystem = () => {
     return (
         <div>
-            comming soon
+           ds comming soon
         </div>
     );
 };

@@ -3,7 +3,7 @@ import React from 'react';
 const DiscreteMath = () => {
     return (
         <div>
-            discrete
+          dm  discrete
         </div>
     );
 };

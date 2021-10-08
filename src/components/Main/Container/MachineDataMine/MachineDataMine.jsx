@@ -3,7 +3,7 @@ import React from 'react';
 const MachineDataMine = () => {
     return (
         <div>
-            comming soon
+           md comming soon
         </div>
     );
 };
