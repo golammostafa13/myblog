@@ -14,6 +14,7 @@ const useStyles = makeStyles({
       width: '50px',
       height: '50px',
       borderRadius: '50%',
+      backgroundColor: 'white',
   }
 });
 

@@ -14,7 +14,7 @@ const useStyles = makeStyles({
       marginTop: '10px',
       width: '45px',
       height: '45px',
-      backgroundColor: '#1876D2',
+      backgroundColor: '#e6e6e6',
       borderRadius: '50%',
   }
 });

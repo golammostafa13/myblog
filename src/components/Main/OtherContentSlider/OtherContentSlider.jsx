@@ -17,7 +17,7 @@ const OtherContentSlider = ({ handleOthersClick }) => {
         <div className={classes.root}>
             <section>
                 <Box sx={{ width: '100%' }}>
-                <Typography variant="h6">Others</Typography>
+                <Typography align='center' variant="h6">Others</Typography>
                 <Tabs
                     value={value}
                     onChange={handleChange}
