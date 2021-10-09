@@ -6,6 +6,10 @@ const useStyles = makeStyles({
     top: 0,
     left: 0,
     height: '10vh',
+  },
+  link: {
+    textDecoration: 'none',
+    color: 'white',
   }
 });
 

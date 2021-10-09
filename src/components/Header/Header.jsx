@@ -4,6 +4,7 @@ import useStyles from './style';
 import InputBase from '@mui/material/InputBase';
 import SearchIcon from '@mui/icons-material/Search';
 import { styled, alpha } from '@mui/material/styles';
+import { Link } from 'react-router-dom';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -76,9 +77,9 @@ const Header = () =>{
                         inputProps={{ 'aria-label': 'search' }}
                       />
                     </Search>
-                    <Button color="inherit">About Me</Button>
-                    <Button color="inherit">Contact</Button>
-                    <Button color="inherit">Login</Button>
+                    <Button color="inherit"><a className={classes.link} target="_blank" href="https://github.com/golammostafa13">About Me</a></Button>
+                    <Button color="inherit"><a className={classes.link} target="_blank" href="https://www.linkedin.com/in/golam-mostafa-09b7811b7/">Contact</a></Button>
+                    <Button color="inherit"><a className={classes.link} target="_blank" href="">Login</a></Button>
                 </Toolbar>
             </AppBar>
         </Box>
