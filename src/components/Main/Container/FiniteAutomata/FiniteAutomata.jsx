@@ -1,8 +1,9 @@
 import React from 'react';
-
+import {useStyles} from '../../../../assets/utils/utils.js'
 const FiniteAutomata = () => {
+    const classes = useStyles();
     return (
-        <div>
+        <div className={classes.root}>
            fa comming soon
         </div>
     );

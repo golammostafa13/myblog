@@ -1,8 +1,9 @@
 import React from 'react';
-
+import {useStyles} from '../../../../assets/utils/utils.js'
 const ComputerProgCPP = () => {
+        const classes = useStyles();
     return (
-        <div>
+        <div className={classes.root}>
             cpp comming soon
         </div>
     );

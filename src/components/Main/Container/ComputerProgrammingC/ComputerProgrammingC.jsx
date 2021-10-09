@@ -1,8 +1,9 @@
 import React from 'react';
-
-const ComputerProgrammingC = () => {
+import {useStyles} from '../../../../assets/utils/utils.js'
+const ComputerProgrammingC = () => {    
+    const classes = useStyles();
     return (
-        <div>
+        <div className={classes.root}>
             computer programming with C is comming soon
         </div>
     );

@@ -1,8 +1,8 @@
 import React from 'react';
 import {Typography, ListSubheader, List, ListItemButton, ListItemIcon, ListItemText, Collapse} from '@mui/material';
-
-const Subject = ({subName, handleSubjectClick}) => {
-
+import {Link} from 'react-router-dom';
+const Subject = ({subName}) => {
+    const linkSubName = subName.replace(/\s+/g, '');
     return (
         <div>
             <List
@@ -10,7 +10,7 @@ const Subject = ({subName, handleSubjectClick}) => {
             component="nav"
             aria-labelledby="nested-list-subheader"
             >
-                <ListItemButton onClick= {() => handleSubjectClick(subName)}>
+                <ListItemButton component={Link} to={linkSubName}>
                     <ListItemText primary={subName} />
                 </ListItemButton>
             </List>

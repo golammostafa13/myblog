@@ -1,8 +1,9 @@
 import React from 'react';
-
+import {useStyles} from '../../../../assets/utils/utils.js'
 const Graphics = () => {
+        const classes = useStyles();
     return (
-        <div>
+        <div className={classes.root}>
            gr comming soon
         </div>
     );

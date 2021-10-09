@@ -1,10 +1,12 @@
 import React from 'react';
 import { Container, Typography, CssBaseline } from '@mui/material';
 import './style.css';
+import {useStyles} from '../../../../assets/utils/utils.js';
 
 const WebDev = () => {
+    const classes = useStyles();
     return (
-        <div>
+        <div className={classes.root}>
             <main>
                 <Container maxWidth="sm">
                     <Typography variant="h4" textColor="primary">Web Developping</Typography>

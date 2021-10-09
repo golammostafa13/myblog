@@ -1,8 +1,9 @@
 import React from 'react';
-
+import {useStyles} from '../../../../assets/utils/utils.js'
 const Chemistry = () => {
+    const classes = useStyles();
     return (
-        <div>
+        <div className={classes.root}>
             chemistry is comming soon
         </div>
     );

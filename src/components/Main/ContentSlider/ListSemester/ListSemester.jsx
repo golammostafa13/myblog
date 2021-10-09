@@ -9,7 +9,7 @@ import MenuBookIcon from '@mui/icons-material/MenuBook';
 import Subject from './Subject/Subject';
 import { semester1, semester2, semester3, semester4, semester5, semester6, semester7, semester8} from '../../../../assets/utils/utils';
 
-export default function ListSemester({handleSubjectClick}) {
+export default function ListSemester() {
 
   // const semesters = [1, 2, 3, 4, 5, 6, 7, 8];
 
@@ -131,7 +131,7 @@ export default function ListSemester({handleSubjectClick}) {
             <List component="div" disablePadding>
               <ListItemButton sx={{ pl: 4}}>
                 <div>
-                    {semester1[0].map(sub => <Subject handleSubjectClick={handleSubjectClick} key={sub} subName={sub} />)}
+                    {semester1[0].map(sub => <Subject key={sub} subName={sub} />)}
                 </div>
               </ListItemButton>
             </List>
@@ -159,7 +159,7 @@ export default function ListSemester({handleSubjectClick}) {
               <ListItemButton sx={{ pl: 4 }}>
             
                 <div>
-                    {semester2[0].map(sub => <Subject handleSubjectClick={handleSubjectClick} key={sub} subName={sub} />)}
+                    {semester2[0].map(sub => <Subject key={sub} subName={sub} />)}
                 </div>
                 
               </ListItemButton>
@@ -188,7 +188,7 @@ export default function ListSemester({handleSubjectClick}) {
               <ListItemButton sx={{ pl: 4 }}>
 
                 <div>
-                    {semester3[0].map(sub => <Subject handleSubjectClick={handleSubjectClick} key={sub} subName={sub} />)}
+                    {semester3[0].map(sub => <Subject key={sub} subName={sub} />)}
                 </div>
                 
               </ListItemButton>
@@ -217,7 +217,7 @@ export default function ListSemester({handleSubjectClick}) {
               <ListItemButton sx={{ pl: 4 }}>
             
                 <div>
-                    {semester4[0].map(sub => <Subject handleSubjectClick={handleSubjectClick} key={sub} subName={sub} />)}
+                    {semester4[0].map(sub => <Subject key={sub} subName={sub} />)}
                 </div>
                 
               </ListItemButton>
@@ -246,7 +246,7 @@ export default function ListSemester({handleSubjectClick}) {
               <ListItemButton sx={{ pl: 4 }}>
             
                 <div>
-                    {semester5[0].map(sub => <Subject handleSubjectClick={handleSubjectClick} key={sub} subName={sub} />)}
+                    {semester5[0].map(sub => <Subject key={sub} subName={sub} />)}
                 </div>
                 
               </ListItemButton>
@@ -275,7 +275,7 @@ export default function ListSemester({handleSubjectClick}) {
               <ListItemButton sx={{ pl: 4 }}>
             
                 <div>
-                    {semester6[0].map(sub => <Subject handleSubjectClick={handleSubjectClick} key={sub} subName={sub} />)}
+                    {semester6[0].map(sub => <Subject key={sub} subName={sub} />)}
                 </div>
                 
               </ListItemButton>
@@ -304,7 +304,7 @@ export default function ListSemester({handleSubjectClick}) {
               <ListItemButton sx={{ pl: 4 }}>
 
                 <div>
-                    {semester7[0].map(sub => <Subject handleSubjectClick={handleSubjectClick} key={sub} subName={sub} />)}
+                    {semester7[0].map(sub => <Subject  key={sub} subName={sub} />)}
                 </div>
                 
               </ListItemButton>
@@ -333,7 +333,7 @@ export default function ListSemester({handleSubjectClick}) {
               <ListItemButton sx={{ pl: 4 }}>
             
                 <div>
-                    {semester8[0].map(sub => <Subject handleSubjectClick={handleSubjectClick} key={sub} subName={sub} />)}
+                    {semester8[0].map(sub => <Subject key={sub} subName={sub} />)}
                 </div>
                 
               </ListItemButton>
