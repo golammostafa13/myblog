@@ -13,7 +13,6 @@ const useStyles = makeStyles({
       marginTop: '10px',
       width: '50px',
       height: '50px',
-      backgroundColor: '#1876D2',
       borderRadius: '50%',
   }
 });
